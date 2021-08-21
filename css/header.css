@@ -24,7 +24,13 @@
     }
 }
 
-/* Заголовки */
+/* Логотип */
+
+.logo__link {
+    text-decoration: none;
+}
+
+/* Заголовки и подзаголовки */
 
 .title {
     /* Title */
@@ -43,10 +49,14 @@
     background-color: #FFD101;
 }
 
+/* Header > Top */
+
 .header__top-inner {
     display: flex;
     justify-content: space-between;
 }
+
+/* Header > Menu */
 
 .header__menu-list {
     display: flex;
