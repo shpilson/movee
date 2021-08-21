@@ -24,6 +24,12 @@
     }
 }
 
+/* Links / Ссылки */
+
+a:visited {
+    color: #333333;
+}
+
 /* Titles and Subtitles / Заголовки и подзаголовки */
 
 .title {
