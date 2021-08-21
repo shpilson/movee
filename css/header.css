@@ -1,4 +1,4 @@
-/* Рабочая область */
+/* Рабочая область / Work area */
 
 .container {
     max-width: 1305px;
@@ -24,13 +24,7 @@
     }
 }
 
-/* Логотип */
-
-.logo__link {
-    text-decoration: none;
-}
-
-/* Заголовки и подзаголовки */
+/* Titles and Subtitles / Заголовки и подзаголовки */
 
 .title {
     /* Title */
@@ -43,10 +37,25 @@
     color: #333333;
 }
 
+.subtitle {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
 /* Header */
 
 .header {
     background-color: #FFD101;
+}
+
+/* Header > Logo */
+
+.logo__link {
+    text-decoration: none;
 }
 
 /* Header > Top */
