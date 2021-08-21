@@ -85,3 +85,7 @@
 .header__menu-list-item {
     display: inline-block;
 }
+
+.header__menu-link {
+    text-decoration: none;
+}
