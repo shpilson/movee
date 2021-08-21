@@ -1,4 +1,27 @@
-/* Рабочая область / Work area */
+/* Links / Ссылки */
+
+a {
+    color: #333333;
+}
+
+a:visited {
+    color: #333333;
+}
+
+/* Styles */
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #FFD101;
+}
+
+.header__top {}
 
 .container {
     max-width: 1305px;
@@ -24,58 +47,25 @@
     }
 }
 
-/* Links / Ссылки */
-
-a {
-    color: #333333;
-}
-
-a:visited {
-    color: #333333;
-}
-
-/* Titles and Subtitles / Заголовки и подзаголовки */
-
-.title {
-    /* Title */
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 37px;
-    /* identical to box height */
-    color: #333333;
-}
-
-.subtitle {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    color: #333333;
-}
-
-/* Header */
-
-.header {
-    background-color: #FFD101;
-}
-
-/* Header > Logo */
-
-.logo__link {
-    text-decoration: none;
-}
-
-/* Header > Top */
-
 .header__top-inner {
     display: flex;
     justify-content: space-between;
 }
 
-/* Header > Menu */
+.logo {}
+
+.logo__link {
+    text-decoration: none;
+}
+
+.title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #333333;
+}
 
 .header__menu {
     font-family: "Montserrat";
@@ -100,8 +90,6 @@ a:visited {
     text-decoration: none;
 }
 
-/* Header > Phone */
-
 .header__phone {
     font-family: "Montserrat";
     font-style: normal;
@@ -110,39 +98,6 @@ a:visited {
     line-height: 29px;
     color: #333333;
 }
-
-/* CSS Tractor */
-
-.wrapper {
-    min-height: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-}
-
-.header {}
-
-.header__top {}
-
-.container {}
-
-.header__top-inner {}
-
-.logo {}
-
-.logo__link {}
-
-.title {}
-
-.header__menu {}
-
-.header__menu-list {}
-
-.header__menu-list-item {}
-
-.header__menu-link {}
-
-.header__phone {}
 
 .header__content {}
 
@@ -174,7 +129,14 @@ a:visited {
 
 .prices {}
 
-.subtitle {}
+.subtitle {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
 
 .prices__item {}
 
