@@ -22,8 +22,10 @@
     }
 }
 
+.header__top {
+        background-color: #FFD101;
+}
+
 .header__top-inner {
-    top: 40px;
-    justify-content: center;
-    align-items: center;
+    display: flex;
 }
