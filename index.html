@@ -10,297 +10,305 @@
 </head>
 
 <body>
-    <!-- Header / Шапка -->
-    <header class="header">
-        <div class="header__top">
+    <div class="wrapper">
+        <!-- Header / Шапка -->
+        <header class="header">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__top-inner">
+                        <div class="logo">
+                            <a class="logo__link" href="#">
+                                <div class="title">MOVEE</div>
+                            </a>
+                        </div>
+                        <nav class="header__menu">
+                            <ul class="header__menu-list">
+                                <li class="header__menu-list-item">
+                                    <a class="header__menu-link" href="#">Цены</a>
+                                </li>
+                                <li class="header__menu-list-item">
+                                    <a class="header__menu-link" href="#">Автопарк</a>
+                                </li>
+                                <li class="header__menu-list-item">
+                                    <a class="header__menu-link" href="#">Отзывы</a>
+                                </li>
+                                <li class="header__menu-list-item">
+                                    <a class="header__menu-link" href="#">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header__phone">8 (999) 965-89-09</div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__content">
+                <div class="container">
+                    <div class="header__content-inner">
+                        <h1 class="header__content-title">Квартирные переезды</h1>
+                        <p class="header__content-subtitle">По Москве и области</p>
+                        <button class="header__content-button">Заказать</button>
+                        <div class="header__content-advantages">
+                            <p class="header__content-advantages-reason">Более 800 переездов</p>
+                            <p class="header__content-advantages-reason">Бережная упаковка</p>
+                            <p class="header__content-advantages-reason">Фиксированная цена</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Block: "How does this happen?" / Блок: "Как это происходит?" -->
+        <section class="how">
             <div class="container">
-                <div class="header__top-inner">
+                <div class="title">Как это происходит?</div>
+                <div class="how__items">
+                    <div class="how__item">
+                        <img class="how__item-img" src="/img/1.svg" alt="icon">
+                        <div class="how__item-box">
+                            <h1 class="how__title">Оценка объёма предстоящих работ</h1>
+                            <p class="how__text">Стоимость переезда зависит от количества комнат, вещей и мебели.</p>
+                        </div>
+                    </div>
+                    <div class="how__item">
+                        <img class="how__item-img" src="/img/2.svg" alt="icon">
+                        <div class="how__item-box">
+                            <h1 class="how__title">Упаковка вещей</h1>
+                            <p class="how__text">Упаковываем вещи в коробки, подписываем. Габаритное и деликатное,
+                                упаковываем отдельно.</p>
+                        </div>
+                    </div>
+                    <div class="how__item">
+                        <img class="how__item-img" src="/img/3.svg" alt="icon">
+                        <div class="how__item-box">
+                            <h1 class="how__title">Погрузка и транспортировка вещей</h1>
+                            <p class="how__text">В нашем автопарке имеются машины, подходящие для мебели любых
+                                габаритов.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="how__item">
+                        <img class="how__item-img" src="/img/4.svg" alt="icon">
+                        <div class="how__item-box">
+                            <h1 class="how__title">Распаковка и расстановка мебели</h1>
+                            <p class="how__text">Опытные грузчики быстро расставят мебель и уберут мусор от распаковки.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Block: "Prices" / Блок: "Цены" -->
+        <section class="prices">
+            <div class="container">
+                <div class="title">Цены</div>
+                <div class="subtitle">Фиксированная стоимость на переезд под ключ</div>
+                <div class="prices__item">
+                    <div class="prices__option-title">1-комнатная кв-ра</div>
+                    <div class="prices__option-description">
+                        <ul class="prices__options">
+                            <li class="prices__list">1 фургон</li>
+                            <li class="prices__list">2 грузчика</li>
+                            <li class="prices__list">Переезд за 4 часа</li>
+                        </ul>
+                    </div>
+                    <div class="prices__option-price">8 490₽</div>
+                    <button class="order">Заказать</button>
+                </div>
+                <div class="prices__item">
+                    <div class="prices__option-title">2-комнатная кв-ра</div>
+                    <div class="prices__option-description">
+                        <ul class="prices__options">
+                            <li class="prices__list">1 фургон</li>
+                            <li class="prices__list">2 грузчика</li>
+                            <li class="prices__list">Переезд за 4 часа</li>
+                        </ul>
+                    </div>
+                    <div class="prices__option-price">10 990₽</div>
+                    <button class="order">Заказать</button>
+                </div>
+                <div class="prices__item">
+                    <div class="prices__option-title">3-комнатная кв-ра</div>
+                    <div class="prices__option-description">
+                        <ul class="prices__options">
+                            <li class="prices__list">1 фургон</li>
+                            <li class="prices__list">2 грузчика</li>
+                            <li class="prices__list">Переезд за 6 часов</li>
+                        </ul>
+                    </div>
+                    <div class="prices__option-price">16 490₽</div>
+                    <button class="order">Заказать</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Block: "Car Park" / Блок: "Автопарк" -->
+        <section class="carpark">
+            <div class="container">
+                <div class="title">Автопарк</div>
+                <div class="subtitle">10 видов автомобилей от 800 кг до 10 тонн</div>
+                <div class="carpark__buttons">
+                    <button class="carpark__button carpark__button--active">Газели</button>
+                    <button class="carpark__button">Каблуки</button>
+                    <button class="carpark__button">Грузовики</button>
+                </div>
+                <div class="carpark__box">
+                    <img class="carpark__img" src="/img/gazelle.svg" alt="gazelle">
+                    <div class="subtitle">Газель 3 метра</div>
+                    <ul class="carpark__description">
+                        <li class="carpark__list">Ширина 2 м</li>
+                        <li class="carpark__list">Высота 2 м</li>
+                        <li class="carpark__list">Объем 16 м³</li>
+                        <li class="carpark__list">Грузоподъемность 1,5 т</li>
+                    </ul>
+                    <button class="order">Заказать</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Block: "Reviews" / Блок: "Отзывы" -->
+        <section class="reviews">
+            <div class="container">
+                <div class="title">Отзывы</div>
+                <div class="reviews__box">
+                    <div class="subtitle">Ирина</div>
+                    <div class="reviews__date">24.03.2019</div>
+                    <div class="reviews__text">Обращение к вам за помощью в переезде оставило только положительные
+                        впечатления. Хотелось отметить замечательного водителя газели Алексея. Были трудности с заездом
+                        во двор, он проявил себя как компетентный
+                        и профессиональный сотрудник, за что ему огромное...</div>
+                    <a href="#" class="reviews__link">Читать полностью</a>
+                </div>
+                <div class="reviews__box">
+                    <div class="subtitle">Светлана Васильевна</div>
+                    <div class="reviews__date">13.09.2019</div>
+                    <div class="reviews__text">Сегодня (13.09.2019) мы переехали. Остались очень довольны, несмотря на
+                        то,
+                        что к нам опоздали на 1,5 часа. Морально были к этому готовы (в прошлый переезд в другой фирме
+                        тоже
+                        опоздали на час). Водитель заранее позвонил, предупредил, что задерживается.
+                        Когда....</div>
+                    <a href="#" class="reviews__link">Читать полностью</a>
+                </div>
+                <div class="reviews__box">
+                    <div class="subtitle">Ольга Петровна</div>
+                    <div class="reviews__date">11.11.2019</div>
+                    <div class="reviews__text">Могу на 100% порекомендовать компанию MOVEE и отметить, что цены
+                        фиксированы,
+                        что упрощает расчет. Безо всяких заморочек, в отличии от их конкурентов. Упаковали все
+                        качественно и
+                        быстро. Все вещи приехали в сохранности. Особая благодарность Георгию за его...</div>
+                    <a href="#" class="reviews__link">Читать полностью</a>
+                </div>
+                <button class="reviews__button">Все отзывы</button>
+            </div>
+        </section>
+
+        <!-- Block: "Callback" / Блок: "Обратный звонок" -->
+        <section class="callback">
+            <div class="container">
+                <div class="title">Закажи переезд прямо сейчас</div>
+                <div class="callback__text">Мы перезвоним в течении 10 секунд</div>
+                <div class="callback__content">
+                    <form class="callback__form" action="">
+                        <input class="callback__form-input" type="text" placeholder="Ваше имя">
+                        <input class="callback__form-input" type="text" placeholder="Телефон">
+                        <button class="callback__button">Перезвоните мне</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Block: "Contacts" / Блок: "Контакты" -->
+        <section class="contacts">
+            <div class="contacts__map">
+                <!-- Здесь будет код карты -->
+            </div>
+            <div class="container">
+                <div class="contacts__box">
                     <div class="logo">
                         <a class="logo__link" href="#">
                             <div class="title">MOVEE</div>
                         </a>
                     </div>
-                    <nav class="header__menu">
-                        <ul class="header__menu-list">
-                            <li class="header__menu-list-item">
-                                <a class="header__menu-link" href="#">Цены</a>
-                            </li>
-                            <li class="header__menu-list-item">
-                                <a class="header__menu-link" href="#">Автопарк</a>
-                            </li>
-                            <li class="header__menu-list-item">
-                                <a class="header__menu-link" href="#">Отзывы</a>
-                            </li>
-                            <li class="header__menu-list-item">
-                                <a class="header__menu-link" href="#">Контакты</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="header__phone">8 (999) 965-89-09</div>
-                </div>
-            </div>
-        </div>
-        <div class="header__content">
-            <div class="container">
-                <div class="header__content-inner">
-                    <h1 class="header__content-title">Квартирные переезды</h1>
-                    <p class="header__content-subtitle">По Москве и области</p>
-                    <button class="header__content-button">Заказать</button>
-                    <div class="header__content-advantages">
-                        <p class="header__content-advantages-reason">Более 800 переездов</p>
-                        <p class="header__content-advantages-reason">Бережная упаковка</p>
-                        <p class="header__content-advantages-reason">Фиксированная цена</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- Block: "How does this happen?" / Блок: "Как это происходит?" -->
-    <section class="how">
-        <div class="container">
-            <div class="title">Как это происходит?</div>
-            <div class="how__items">
-                <div class="how__item">
-                    <img class="how__item-img" src="/img/1.svg" alt="icon">
-                    <div class="how__item-box">
-                        <h1 class="how__title">Оценка объёма предстоящих работ</h1>
-                        <p class="how__text">Стоимость переезда зависит от количества комнат, вещей и мебели.</p>
-                    </div>
-                </div>
-                <div class="how__item">
-                    <img class="how__item-img" src="/img/2.svg" alt="icon">
-                    <div class="how__item-box">
-                        <h1 class="how__title">Упаковка вещей</h1>
-                        <p class="how__text">Упаковываем вещи в коробки, подписываем. Габаритное и деликатное,
-                            упаковываем отдельно.</p>
-                    </div>
-                </div>
-                <div class="how__item">
-                    <img class="how__item-img" src="/img/3.svg" alt="icon">
-                    <div class="how__item-box">
-                        <h1 class="how__title">Погрузка и транспортировка вещей</h1>
-                        <p class="how__text">В нашем автопарке имеются машины, подходящие для мебели любых габаритов.
-                        </p>
-                    </div>
-                </div>
-                <div class="how__item">
-                    <img class="how__item-img" src="/img/4.svg" alt="icon">
-                    <div class="how__item-box">
-                        <h1 class="how__title">Распаковка и расстановка мебели</h1>
-                        <p class="how__text">Опытные грузчики быстро расставят мебель и уберут мусор от распаковки.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Block: "Prices" / Блок: "Цены" -->
-    <section class="prices">
-        <div class="container">
-            <div class="title">Цены</div>
-            <div class="subtitle">Фиксированная стоимость на переезд под ключ</div>
-            <div class="prices__item">
-                <div class="prices__option-title">1-комнатная кв-ра</div>
-                <div class="prices__option-description">
-                    <ul class="prices__options">
-                        <li class="prices__list">1 фургон</li>
-                        <li class="prices__list">2 грузчика</li>
-                        <li class="prices__list">Переезд за 4 часа</li>
+                    <ul class="contacts__list">
+                        <li class="contacts__list-item">Москва, Волгоградский пр-т, 38</li>
+                        <li class="contacts__list-item">8 (800)-080-12-13</li>
+                        <li class="contacts__list-item">hello@movee.ru</li>
                     </ul>
-                </div>
-                <div class="prices__option-price">8 490₽</div>
-                <button class="order">Заказать</button>
-            </div>
-            <div class="prices__item">
-                <div class="prices__option-title">2-комнатная кв-ра</div>
-                <div class="prices__option-description">
-                    <ul class="prices__options">
-                        <li class="prices__list">1 фургон</li>
-                        <li class="prices__list">2 грузчика</li>
-                        <li class="prices__list">Переезд за 4 часа</li>
-                    </ul>
-                </div>
-                <div class="prices__option-price">10 990₽</div>
-                <button class="order">Заказать</button>
-            </div>
-            <div class="prices__item">
-                <div class="prices__option-title">3-комнатная кв-ра</div>
-                <div class="prices__option-description">
-                    <ul class="prices__options">
-                        <li class="prices__list">1 фургон</li>
-                        <li class="prices__list">2 грузчика</li>
-                        <li class="prices__list">Переезд за 6 часов</li>
-                    </ul>
-                </div>
-                <div class="prices__option-price">16 490₽</div>
-                <button class="order">Заказать</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Block: "Car Park" / Блок: "Автопарк" -->
-    <section class="carpark">
-        <div class="container">
-            <div class="title">Автопарк</div>
-            <div class="subtitle">10 видов автомобилей от 800 кг до 10 тонн</div>
-            <div class="carpark__buttons">
-                <button class="carpark__button carpark__button--active">Газели</button>
-                <button class="carpark__button">Каблуки</button>
-                <button class="carpark__button">Грузовики</button>
-            </div>
-            <div class="carpark__box">
-                <img class="carpark__img" src="/img/gazelle.svg" alt="gazelle">
-                <div class="subtitle">Газель 3 метра</div>
-                <ul class="carpark__description">
-                    <li class="carpark__list">Ширина 2 м</li>
-                    <li class="carpark__list">Высота 2 м</li>
-                    <li class="carpark__list">Объем 16 м³</li>
-                    <li class="carpark__list">Грузоподъемность 1,5 т</li>
-                </ul>
-                <button class="order">Заказать</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Block: "Reviews" / Блок: "Отзывы" -->
-    <section class="reviews">
-        <div class="container">
-            <div class="title">Отзывы</div>
-            <div class="reviews__box">
-                <div class="subtitle">Ирина</div>
-                <div class="reviews__date">24.03.2019</div>
-                <div class="reviews__text">Обращение к вам за помощью в переезде оставило только положительные
-                    впечатления. Хотелось отметить замечательного водителя газели Алексея. Были трудности с заездом
-                    во двор, он проявил себя как компетентный
-                    и профессиональный сотрудник, за что ему огромное...</div>
-                <a href="#" class="reviews__link">Читать полностью</a>
-            </div>
-            <div class="reviews__box">
-                <div class="subtitle">Светлана Васильевна</div>
-                <div class="reviews__date">13.09.2019</div>
-                <div class="reviews__text">Сегодня (13.09.2019) мы переехали. Остались очень довольны, несмотря на то,
-                    что к нам опоздали на 1,5 часа. Морально были к этому готовы (в прошлый переезд в другой фирме тоже
-                    опоздали на час). Водитель заранее позвонил, предупредил, что задерживается.
-                    Когда....</div>
-                <a href="#" class="reviews__link">Читать полностью</a>
-            </div>
-            <div class="reviews__box">
-                <div class="subtitle">Ольга Петровна</div>
-                <div class="reviews__date">11.11.2019</div>
-                <div class="reviews__text">Могу на 100% порекомендовать компанию MOVEE и отметить, что цены фиксированы,
-                    что упрощает расчет. Безо всяких заморочек, в отличии от их конкурентов. Упаковали все качественно и
-                    быстро. Все вещи приехали в сохранности. Особая благодарность Георгию за его...</div>
-                <a href="#" class="reviews__link">Читать полностью</a>
-            </div>
-            <button class="reviews__button">Все отзывы</button>
-        </div>
-    </section>
-
-    <!-- Block: "Callback" / Блок: "Обратный звонок" -->
-    <section class="callback">
-        <div class="container">
-            <div class="title">Закажи переезд прямо сейчас</div>
-            <div class="callback__text">Мы перезвоним в течении 10 секунд</div>
-            <div class="callback__content">
-                <form class="callback__form" action="">
-                    <input class="callback__form-input" type="text" placeholder="Ваше имя">
-                    <input class="callback__form-input" type="text" placeholder="Телефон">
-                    <button class="callback__button">Перезвоните мне</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Block: "Contacts" / Блок: "Контакты" -->
-    <section class="contacts">
-        <div class="contacts__map">
-            <!-- Здесь будет код карты -->
-        </div>
-        <div class="container">
-            <div class="contacts__box">
-                <div class="logo">
-                    <a class="logo__link" href="#">
-                        <div class="title">MOVEE</div>
-                    </a>
-                </div>
-                <ul class="contacts__list">
-                    <li class="contacts__list-item">Москва, Волгоградский пр-т, 38</li>
-                    <li class="contacts__list-item">8 (800)-080-12-13</li>
-                    <li class="contacts__list-item">hello@movee.ru</li>
-                </ul>
-                <div class="social">
-                    <a class="social__link social__link--youtube" href="#">YouTube</a>
-                    <a class="social__link social__link--instagram" href="#">ВКонтакте</a>
-                    <a class="social__link social__link--facebook" href="#">Facebook</a>
-                    <a class="social__link social__link--instagram" href="#">Instagram</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer / Подвал -->
-    <footer class="footer">
-        <div class="footer__policy">
-            <div class="container">
-                <div class="footer__policy-inner">
-                    <div class="logo">
-                        <a class="logo__link" href="#">
-                            <div class="title">MOVEE</div>
-                        </a>
+                    <div class="social">
+                        <a class="social__link social__link--youtube" href="#">YouTube</a>
+                        <a class="social__link social__link--instagram" href="#">ВКонтакте</a>
+                        <a class="social__link social__link--facebook" href="#">Facebook</a>
+                        <a class="social__link social__link--instagram" href="#">Instagram</a>
                     </div>
-                    <a class="footer__link" href="#">Политика конфиденциальнности</a>
-                    <a class="footer__link" href="#">Соглашение на обработку персональных данных</a>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="footer__navigation">
-            <div class="container">
-                <div class="footer__navigation-inner">
-                    <nav class="footer__menu">
-                        <ul class="footer__menu-list">
-                            <li class="footer__menu-list-item">
-                                <a class="footer__menu-link" href="#">Главная</a>
-                            </li>
-                            <li class="footer__menu-list-item">
-                                <a class="footer__menu-link" href="#">Цены</a>
-                            </li>
-                            <li class="footer__menu-list-item">
-                                <a class="footer__menu-link" href="#">Автопарк</a>
-                            </li>
-                            <li class="footer__menu-list-item">
-                                <a class="footer__menu-link" href="#">Отзывы</a>
-                            </li>
-                            <li class="footer__menu-list-item">
-                                <a class="footer__menu-link" href="#">Контакты</a>
-                            </li>
-                        </ul>
-                    </nav>
+        <!-- Footer / Подвал -->
+        <footer class="footer">
+            <div class="footer__policy">
+                <div class="container">
+                    <div class="footer__policy-inner">
+                        <div class="logo">
+                            <a class="logo__link" href="#">
+                                <div class="title">MOVEE</div>
+                            </a>
+                        </div>
+                        <a class="footer__link" href="#">Политика конфиденциальнности</a>
+                        <a class="footer__link" href="#">Соглашение на обработку персональных данных</a>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="footer__social">
-            <div class="container">
-                <div class="social">
-                    <a class="social__link social__link--youtube" href="#">YouTube</a>
-                    <a class="social__link social__link--instagram" href="#">ВКонтакте</a>
-                    <a class="social__link social__link--facebook" href="#">Facebook</a>
-                    <a class="social__link social__link--instagram" href="#">Instagram</a>
-                    <div class="subtitle">hello@movee.ru</div>
+            <div class="footer__navigation">
+                <div class="container">
+                    <div class="footer__navigation-inner">
+                        <nav class="footer__menu">
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-list-item">
+                                    <a class="footer__menu-link" href="#">Главная</a>
+                                </li>
+                                <li class="footer__menu-list-item">
+                                    <a class="footer__menu-link" href="#">Цены</a>
+                                </li>
+                                <li class="footer__menu-list-item">
+                                    <a class="footer__menu-link" href="#">Автопарк</a>
+                                </li>
+                                <li class="footer__menu-list-item">
+                                    <a class="footer__menu-link" href="#">Отзывы</a>
+                                </li>
+                                <li class="footer__menu-list-item">
+                                    <a class="footer__menu-link" href="#">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="footer__contacts">
-            <div class="container">
-                <button class="footer__button">Обратный звонок</button>
-                <div class="footer__phone">8 (800)-080-12-13</div>
+            <div class="footer__social">
+                <div class="container">
+                    <div class="social">
+                        <a class="social__link social__link--youtube" href="#">YouTube</a>
+                        <a class="social__link social__link--instagram" href="#">ВКонтакте</a>
+                        <a class="social__link social__link--facebook" href="#">Facebook</a>
+                        <a class="social__link social__link--instagram" href="#">Instagram</a>
+                        <div class="subtitle">hello@movee.ru</div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
 
+            <div class="footer__contacts">
+                <div class="container">
+                    <button class="footer__button">Обратный звонок</button>
+                    <div class="footer__phone">8 (800)-080-12-13</div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
 </body>
 
 </html>

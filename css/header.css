@@ -110,3 +110,170 @@ a:visited {
     line-height: 29px;
     color: #333333;
 }
+
+/* CSS Tractor */
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {}
+
+.header__top {}
+
+.container {}
+
+.header__top-inner {}
+
+.logo {}
+
+.logo__link {}
+
+.title {}
+
+.header__menu {}
+
+.header__menu-list {}
+
+.header__menu-list-item {}
+
+.header__menu-link {}
+
+.header__phone {}
+
+.header__content {}
+
+.header__content-inner {}
+
+.header__content-title {}
+
+.header__content-subtitle {}
+
+.header__content-button {}
+
+.header__content-advantages {}
+
+.header__content-advantages-reason {}
+
+.how {}
+
+.how__items {}
+
+.how__item {}
+
+.how__item-img {}
+
+.how__item-box {}
+
+.how__title {}
+
+.how__text {}
+
+.prices {}
+
+.subtitle {}
+
+.prices__item {}
+
+.prices__option-title {}
+
+.prices__option-description {}
+
+.prices__options {}
+
+.prices__list {}
+
+.prices__option-price {}
+
+.order {}
+
+.carpark {}
+
+.carpark__buttons {}
+
+.carpark__button {}
+
+.carpark__button--active {}
+
+.carpark__box {}
+
+.carpark__img {}
+
+.carpark__description {}
+
+.carpark__list {}
+
+.reviews {}
+
+.reviews__box {}
+
+.reviews__date {}
+
+.reviews__text {}
+
+.reviews__link {}
+
+.reviews__button {}
+
+.callback {}
+
+.callback__text {}
+
+.callback__content {}
+
+.callback__form {}
+
+.callback__form-input {}
+
+.callback__button {}
+
+.contacts {}
+
+.contacts__map {}
+
+.contacts__box {}
+
+.contacts__list {}
+
+.contacts__list-item {}
+
+.social {}
+
+.social__link {}
+
+.social__link--youtube {}
+
+.social__link--instagram {}
+
+.social__link--facebook {}
+
+.footer {}
+
+.footer__policy {}
+
+.footer__policy-inner {}
+
+.footer__link {}
+
+.footer__navigation {}
+
+.footer__navigation-inner {}
+
+.footer__menu {}
+
+.footer__menu-list {}
+
+.footer__menu-list-item {}
+
+.footer__menu-link {}
+
+.footer__social {}
+
+.footer__contacts {}
+
+.footer__button {}
+
+.footer__phone {}
