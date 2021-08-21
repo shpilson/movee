@@ -1,3 +1,5 @@
+/* Рабочая область */
+
 .container {
     max-width: 1305px;
     margin: 0 auto;
@@ -22,6 +24,8 @@
     }
 }
 
+/* Заголовки */
+
 .title {
     /* Title */
     font-family: "Montserrat";
@@ -32,6 +36,8 @@
     /* identical to box height */
     color: #333333;
 }
+
+/* Header */
 
 .header {
     background-color: #FFD101;
