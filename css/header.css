@@ -23,9 +23,10 @@
 }
 
 .header {
-        background-color: #FFD101;
+    background-color: #FFD101;
 }
 
 .header__top-inner {
     display: flex;
+    justify-content: space-between;
 }
