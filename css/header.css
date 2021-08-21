@@ -26,6 +26,10 @@
 
 /* Links / Ссылки */
 
+a {
+    color: #333333;
+}
+
 a:visited {
     color: #333333;
 }
