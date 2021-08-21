@@ -1,23 +1,29 @@
-._container {
+.container {
     max-width: 1305px;
     margin: 0 auto;
 }
 
 @media (max-width: 970px) {
-    ._container {
+    .container {
         max-width: 970px;
     }
 }
 
 @media (max-width: 750px) {
-    ._container {
+    .container {
         max-width: 750px;
     }
 }
 
 @media (max-width: 320px) {
-    ._container {
+    .container {
         max-width: none;
         padding: 0 10px;
     }
+}
+
+.header__top-inner {
+    top: 40px;
+    justify-content: center;
+    align-items: center;
 }
