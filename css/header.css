@@ -146,15 +146,14 @@ a:visited {
     max-width: 314px;
     height: 70px;
     border: none;
-    padding: 25px 0px;
+    margin: 50px 0px 0px 0px;
 }
 
 .header__content-advantages {
     display: flex;
     justify-content: center;
-    padding: 25px 0;
     max-width: 100%;
-    margin: 50px 0px 0px 0px;
+    margin: 50px 0px 100px 0px;
 }
 
 .header__content-image {
