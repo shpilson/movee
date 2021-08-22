@@ -109,12 +109,16 @@ a:visited {
     align-items: center;
 }
 
-.header__content {}
+.header__content {
+    background-image: url("/img/delivery.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
 
 .header__content-inner {
     display: flex;
     flex-direction: column;
-    padding: 50px 0;
+    padding: 90px 0px 0px 0px;
     max-width: 50%;
 }
 
@@ -161,6 +165,11 @@ a:visited {
 }
 
 .header__content-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
 }
 
 .how {}
