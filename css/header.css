@@ -142,7 +142,6 @@ a:visited {
     font-size: 24px;
     line-height: 29px;
     color: #F2F2F2;
-
     background-image: url("/img/red_button1.png");
     max-width: 314px;
     height: 70px;
@@ -158,22 +157,12 @@ a:visited {
     margin: 35px;
 }
 
-.header__content-advantages-moves {
-    background-image: url("/img/icon-car.svg");
-    background-repeat: no-repeat;
-    margin: 0 10px;
+.header__content-image {
+    max-width: 100%;
+    padding: 0 5px 0px 0px;
 }
 
-.header__content-advantages-package {
-    background-image: url("/img/icon-package.svg");
-    background-repeat: no-repeat;
-    margin: 0 10px;
-}
-
-.header__content-advantages-money {
-    background-image: url("/img/icon-money.svg");
-    background-repeat: no-repeat;
-    margin: 0 10px;
+.header__content-text {
 }
 
 .how {}
