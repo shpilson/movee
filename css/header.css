@@ -188,15 +188,18 @@ a:visited {
 .how__item {
     display: flex;
     flex: 0 1 50%;
-    padding: 0px 8px;
+    padding: 0px 70px;
     margin: 0px 0px 30px 0px;
+    align-items: end;
 }
 
 .how__item-img {
     max-width: 100%;
 }
 
-.how__item-box {}
+.how__item-box {
+    padding: 0px 0px 0px 30px;
+}
 
 .how__undertitle {
     font-style: normal;
@@ -204,6 +207,7 @@ a:visited {
     font-size: 20px;
     line-height: 24px;
     color: #333333;
+    padding: 0px 0px 15px 0px;
 }
 
 .how__text {
