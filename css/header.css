@@ -26,7 +26,9 @@ a:visited {
     background-image: url("/img/background.svg");
 }
 
-.header__top {}
+.header__top {
+    padding: 20px 0;
+}
 
 .container {
     max-width: 1305px;
