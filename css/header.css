@@ -110,7 +110,9 @@ a:visited {
 
 .header__content-inner {
     display: flex;
+    flex-direction: column;
     padding: 50px 0;
+    max-width: 50%;
 }
 
 .header__content-title {
@@ -130,10 +132,20 @@ a:visited {
     color: #333333;
 }
 
-.header__content-button {}
+.header__content-button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F2F2F2;
+    
+    background-image: url("/img/red_button.svg");
+    max-width: 314px;
+    height: 70px;
+}
 
 .header__content-advantages {
-    display: flex;
+
 }
 
 .header__content-advantages-reason {}
