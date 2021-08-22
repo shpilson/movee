@@ -23,6 +23,7 @@ a:visited {
 
 .header {
     background-color: #FFD101;
+    background-image: url("/img/background.svg");
 }
 
 .header__top {}
@@ -130,6 +131,7 @@ a:visited {
     font-size: 30px;
     line-height: 37px;
     color: #333333;
+    padding: 0px 0px 25px 0px;
 }
 
 .header__content-button {
@@ -138,17 +140,39 @@ a:visited {
     font-size: 24px;
     line-height: 29px;
     color: #F2F2F2;
-    
-    background-image: url("/img/red_button.svg");
+
+    background-image: url("/img/red_button1.png");
     max-width: 314px;
     height: 70px;
+    border: none;
+    padding: 25px 0px;
 }
 
 .header__content-advantages {
-
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+    max-width: 100%;
+    margin: 35px;
 }
 
-.header__content-advantages-reason {}
+.header__content-advantages-moves {
+    background-image: url("/img/icon-car.svg");
+    background-repeat: no-repeat;
+    margin: 0 10px;
+}
+
+.header__content-advantages-package {
+    background-image: url("/img/icon-package.svg");
+    background-repeat: no-repeat;
+    margin: 0 10px;
+}
+
+.header__content-advantages-money {
+    background-image: url("/img/icon-money.svg");
+    background-repeat: no-repeat;
+    margin: 0 10px;
+}
 
 .how {}
 
