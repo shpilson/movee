@@ -1,4 +1,8 @@
-/* Links / Ссылки */
+/* Basic */
+
+body {
+    font-family: "Montserrat";
+}
 
 a {
     color: #333333;
@@ -59,7 +63,6 @@ a:visited {
 }
 
 .title {
-    font-family: "Montserrat";
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
@@ -68,22 +71,23 @@ a:visited {
 }
 
 .header__menu {
-    font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
     color: #333333;
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 
 .header__menu-list {
-    display: flex;
     list-style-type: none;
-    text-align: center;
 }
 
 .header__menu-list-item {
     display: inline-block;
+    padding: 0px 25px;
 }
 
 .header__menu-link {
@@ -91,25 +95,46 @@ a:visited {
 }
 
 .header__phone {
-    font-family: "Montserrat";
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
     color: #333333;
+    text-decoration: underline;
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 
 .header__content {}
 
-.header__content-inner {}
+.header__content-inner {
+    display: flex;
+    padding: 50px 0;
+}
 
-.header__content-title {}
+.header__content-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 126.9%;
+    /* or 89px */
+    color: #333333;
+}
 
-.header__content-subtitle {}
+.header__content-subtitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #333333;
+}
 
 .header__content-button {}
 
-.header__content-advantages {}
+.header__content-advantages {
+    display: flex;
+}
 
 .header__content-advantages-reason {}
 
