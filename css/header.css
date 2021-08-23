@@ -165,7 +165,7 @@ a:visited {
     font-size: 24px;
     line-height: 29px;
     color: #F2F2F2;
-    background-image: url("/img/red_button1.png");
+    background-image: url("/img/red-button.svg");
     max-width: 314px;
     height: 70px;
     border: none;
@@ -516,6 +516,10 @@ a:visited {
     margin: 0px 0px 0px 35px;
 }
 
+.contacts__list-item--underline {
+    text-decoration: underline;
+}
+
 .contacts__social {
     justify-content: flex-end;
     margin: 0px 15px 40px 0px;
@@ -537,11 +541,30 @@ a:visited {
 
 .social__link--facebook {}
 
-.footer {}
+.footer {
+    background-color: #FFD101;
+}
 
-.footer__policy {}
+.footer__content {
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0 0 0;
+}
 
-.footer__policy-inner {}
+.footer__logo {
+    margin: 0px 0px 44px 0px;
+}
+
+.footer__title {
+}
+
+.footer__policy {
+}
+
+.footer__policy-inner {
+    display: flex;
+    flex-direction: column;
+}
 
 .footer__link {}
 
