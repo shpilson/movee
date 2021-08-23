@@ -73,6 +73,13 @@ a:visited {
     color: #333333;
 }
 
+.subtitle {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
 .button {
     width: 250px;
     height: 51px;
@@ -245,13 +252,6 @@ a:visited {
     margin: 0px 0px 60px 0px;
 }
 
-.subtitle {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    color: #333333;
-}
-
 .prices__body {
     width: 1350px;
     margin: 0px auto;
@@ -322,7 +322,20 @@ a:visited {
 
 .carpark {}
 
-.carpark__buttons {}
+.carpark__title {
+    text-align: center;
+    margin: 15px 0px 0px 0px;
+}
+
+.carpark__subtitle {
+    text-align: center;
+    margin: 0px 0px 60px 0px;
+}
+
+.carpark__buttons {
+    display: flex;
+    justify-content: center;
+}
 
 .carpark__button {}
 
