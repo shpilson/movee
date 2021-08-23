@@ -335,11 +335,11 @@ a:visited {
 .carpark__buttons {
     display: flex;
     justify-content: center;
-    margin: 0px 0px 100px 0px;
+    margin: 0px 0px 50px 0px;
 }
 
 .carpark__button {
-    margin: 0 20px;
+    margin: 0px 20px;
     width: 201px;
     height: 50px;
     border: 1px solid #EBEBEB;
@@ -358,7 +358,9 @@ a:visited {
     justify-content: center;
 }
 
-.carpark__car-name {}
+.carpark__car-name {
+    margin: 0px 0px 40px 0px;
+}
 
 .carpark__img {
     margin: 0px 0px 0px 50px;
@@ -367,23 +369,29 @@ a:visited {
 .carpark__list {
     display: flex;
     flex-direction: column;
-    margin: 0px 50px 0px 0px;
+    margin: 50px 50px 0px 0px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 56px;
+    line-height: 28px;
     color: #333333;
+}
 
+.carpark__description {}
+
+.carpark__option {
     background: url('/img/icon-check.svg') no-repeat center left;
-    padding: 4px 0 4px 20px;
+    padding: 4px 0 4px 25px;
     list-style: none;
 }
 
-.carpark__description {
-
+.carpark__order {
+    margin: 35px 0px 0px 0px;
 }
 
-.reviews {}
+.reviews {
+    background-color: #FED100;
+}
 
 .reviews__box {}
 
