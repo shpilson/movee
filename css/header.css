@@ -443,11 +443,11 @@ a:visited {
 
 .callback__text {}
 
-.callback__content {
+.callback__content {}
+
+.callback__form {
     margin: 50px 0px 0px 0px;
 }
-
-.callback__form {}
 
 .callback__form-input {
     color: rgba(51, 51, 51, 0.7);
@@ -460,13 +460,27 @@ a:visited {
     margin: 0px 70px 0px 0px;
 }
 
-.callback__button {}
+.callback__button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #F2F2F2;
+    background: url("/img/callback_button.svg");
+    width: 260px;
+    height: 60px;
+    border: none;
+}
 
 .contacts {}
 
-.contacts__map {}
+.contacts__map {
+    width: 100%;
+    height: 666px;
+}
 
-.contacts__box {}
+.contacts__box {
+    display: flex;
+}
 
 .contacts__list {}
 
