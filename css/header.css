@@ -393,7 +393,25 @@ a:visited {
     background-color: #FED100;
 }
 
-.reviews__box {}
+.reviews__title {
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+}
+
+.reviews__box {
+    margin: 60px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.reviews__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews__subtitle {
+
+}
 
 .reviews__date {}
 
