@@ -413,7 +413,12 @@ a:visited {
 
 }
 
-.reviews__date {}
+.reviews__date {
+    background: url("/img/icon-stars.svg") no-repeat center left;
+    padding: 4px 0px 4px 0px;
+    margin: 0px 150px 0px 0px;
+    list-style: none;
+}
 
 .reviews__text {}
 
