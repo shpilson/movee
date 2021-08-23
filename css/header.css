@@ -281,7 +281,7 @@ a:visited {
 }
 
 .prices__item--active {
-    border: 2px solid #FED100;
+    border: 1px solid #FED100;
 }
 
 .prices__column-title {
@@ -335,15 +335,44 @@ a:visited {
 .carpark__buttons {
     display: flex;
     justify-content: center;
+    margin: 0px 0px 100px 0px;
 }
 
-.carpark__button {}
+.carpark__button {
+    margin: 0 20px;
+    width: 201px;
+    height: 50px;
+    border: 1px solid #EBEBEB;
+    background-color: #FFF;
+}
 
-.carpark__button--active {}
+.carpark__button--active {
+    border: 1px solid #FED100;
+}
 
-.carpark__box {}
+.carpark__box {
 
-.carpark__img {}
+}
+
+.carpark__item {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.carpark__car-name {
+    
+}
+
+.carpark__img {
+
+}
+
+.carpark__list {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .carpark__description {}
 
