@@ -621,3 +621,9 @@ a:visited {
     text-decoration: underline;
     padding: 10px 0px 0px 0px;
 }
+
+.copyright {
+    text-align: center;
+    background-color: #FFD101;
+    padding: 10px 0px;
+}
