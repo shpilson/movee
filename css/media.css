@@ -51,20 +51,37 @@
         max-width: 100%;
         text-align: center;
     }
-
     .header__menu {
         font-size: 16px;
         line-height: 18px;
     }
-
     .header__content-button {
         margin: 0 0 40px 0;
+        font-size: 20px;
     }
-}
-
-@media (max-width: 320px) {
-    .container {
-        max-width: none;
+    /* Block "How" */
+    .how__title {
+        padding: 40px 0;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .how__item {
+        display: flex;
+        flex: 1 1 50%;
+    }
+    .how__items {
+        margin: 0 auto;
+    }
+    .how__undertitle {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 129.9%;
+        color: #333333;
+    }
+    .how__text {
+        display: none;
     }
 }
 
@@ -77,5 +94,11 @@
     }
     .header__mobile-photo {
         display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: none;
     }
 }

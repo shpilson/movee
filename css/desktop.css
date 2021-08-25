@@ -189,7 +189,8 @@ a:visited {
 }
 
 .how__item-img {
-    max-width: 100%;
+    width: 61px;
+    height: 64px;
 }
 
 .how__item-box {
