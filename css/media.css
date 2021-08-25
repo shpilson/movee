@@ -4,9 +4,9 @@
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
     .container {
-        max-width: 750px;
+        max-width: 768px;
     }
 }
 
@@ -17,8 +17,12 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
     .header__menu {
+        visibility: hidden;
+    }
+
+    .header__content-advantages {
         visibility: hidden;
     }
 }
