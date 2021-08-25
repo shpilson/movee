@@ -9,6 +9,14 @@
         max-width: 768px;
         padding: 0 10px;
     }
+
+    .header__content-advantages {
+        display: none;
+    }
+
+    .header__phone {
+        display: none;
+    };
 }
 
 @media (max-width: 320px) {
@@ -17,11 +25,7 @@
     }
 }
 
-@media (min-width: 768px) {
-    .header__content-advantages {
-        visibility: hidden;
-    }
-    
+@media (min-width: 768px) {    
     .menu__btn {
         visibility: hidden;
     }
@@ -29,8 +33,4 @@
     .header__menu-list {
         visibility: visible;
     }
-
-    .header__phone {
-        visibility: hidden;
-    };
 }
