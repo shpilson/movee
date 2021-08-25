@@ -35,26 +35,6 @@ a:visited {
     margin: 0 auto;
 }
 
-@media (max-width: 970px) {
-    .container {
-        max-width: 970px;
-    }
-}
-
-@media (max-width: 750px) {
-    .container {
-        max-width: 750px;
-    }
-}
-
-@media (max-width: 320px) {
-    .container {
-        max-width: none;
-        padding: 0 10px;
-    }
-}
-
-
 .header__top-inner {
     display: flex;
     justify-content: space-between;
