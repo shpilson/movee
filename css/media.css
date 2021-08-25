@@ -7,22 +7,30 @@
 @media (max-width: 768px) {
     .container {
         max-width: 768px;
+        padding: 0 10px;
     }
 }
 
 @media (max-width: 320px) {
     .container {
         max-width: none;
-        padding: 0 10px;
     }
 }
 
-@media (max-width: 768px) {
-    .header__menu {
-        visibility: hidden;
-    }
-
+@media (min-width: 768px) {
     .header__content-advantages {
         visibility: hidden;
     }
+    
+    .menu__btn {
+        visibility: hidden;
+    }
+
+    .header__menu-list {
+        visibility: visible;
+    }
+
+    .header__phone {
+        visibility: hidden;
+    };
 }
