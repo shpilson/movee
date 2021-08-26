@@ -253,6 +253,9 @@
         line-height: 40px;
         /* identical to box height */
         color: rgba(51, 51, 51, 0.7);
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
     }
     .callback__button {
         background: url("/img/red_button_v2.svg");
