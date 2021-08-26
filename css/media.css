@@ -155,10 +155,24 @@
     .carpark__item {
         flex-direction: column;
     }
-    .carpark__img {}
-    .carpark__list {}
-    .carpark__car-name {}
-    .carpark__description {}
+    .carpark__img {
+        margin: 0 auto;
+    }
+    .carpark__list {
+        margin: 0 auto;
+    }
+    .carpark__car-name {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height */
+        color: #333333;
+        margin: 0 auto;
+    }
+    .carpark__description {
+        display: none;
+    }
     .carpark__option {}
     .carpark__order {}
     .button {}
