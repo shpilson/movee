@@ -85,6 +85,10 @@
         background: #F8FBFF;
     }
 
+    .prices__item {
+        padding: 40px 0px 20px 0px;
+    }
+
 
     .prices__subtitle {
         display: none;
@@ -98,11 +102,10 @@
         border: none;
         display: flex;
         flex-direction: column;
-        padding: 0px 0px 20px 0px;
         text-align: center;
         justify-content: space-evenly;
-        max-width: fit-content;
-        max-height: fit-content;
+
+        padding: 0;
     }
     .prices__row {
         display: flex;
