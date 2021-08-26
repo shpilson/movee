@@ -256,11 +256,36 @@
         margin: 0 auto;
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .callback__button {
         background: url("/img/red_button_v2.svg");
         margin: 60px 0 0 0;
     }
+    /* Block: Contacts */
+    .contacts__box {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 180px auto 0;
+    }
+    .logo {}
+    .logo__link {}
+    .contacts__title {
+        display: none;
+    }
+    .title {}
+    .contacts__list {}
+    .contacts__list-item {
+        background: none;
+        padding: 0;
+    }
+    .contacts__list-item--underline {}
+    .contacts__social {}
+    .social {}
+    .social__link {
+        display: none;
+    }
+    .social__image {}
 }
 
 @media (min-width: 767px) {
