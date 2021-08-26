@@ -229,7 +229,7 @@ a:visited {
 }
 
 .prices__body {
-    width: 1350px;
+    width: 100%;
     margin: 0px auto;
 }
 
@@ -245,8 +245,8 @@ a:visited {
 }
 
 .prices__item {
-    width: 420px;
-    height: 579px;
+    min-width: 420px;
+    min-height: 579px;
     color: #333333;
     border: 2px solid #EBEBEB;
     display: flex;
