@@ -28,9 +28,13 @@
     .header__content {
         background-image: none;
     }
+    .header__top-inner {
+        height: 50px;
+    }
     .header__mobile-photo {
         display: flex;
         justify-content: center;
+        margin: 20px 0px 0px 0px;
     }
     .header__content-title {
         font-style: normal;
@@ -166,7 +170,6 @@
         font-weight: normal;
         font-size: 12px;
         line-height: 15px;
-        /* identical to box height */
         color: #333333;
         margin: 0 auto;
     }
@@ -175,6 +178,29 @@
     }
     .carpark__option {}
     .carpark__order {}
+    .button {}
+    /* Block: Reviews */
+    .reviews__title {
+        margin: 40px 0px;
+    }
+    .title {}
+    .reviews__box {}
+    .reviews__item {
+        display: none;
+    }
+    .reviews__item--active {
+        display: block;
+    }
+    .reviews__subtitle {}
+    .subtitle {}
+    .reviews__date {
+        margin: 0px 20px 0px 0px;
+    }
+    .reviews__text {}
+    .reviews__link {}
+    .reviews__button {
+        margin: 40px auto;
+    }
     .button {}
 }
 
