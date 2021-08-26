@@ -290,6 +290,10 @@ a:visited {
     align-self: center;
 }
 
+.prices__link {
+    display: none;
+}
+
 .carpark__title {
     text-align: center;
     margin: 15px 0px 0px 0px;

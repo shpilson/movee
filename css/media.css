@@ -84,12 +84,9 @@
     .prices {
         background: #F8FBFF;
     }
-
     .prices__item {
-        padding: 40px 0px 20px 0px;
+        padding: 40px 0px 0px 0px;
     }
-
-
     .prices__subtitle {
         display: none;
     }
@@ -104,7 +101,6 @@
         flex-direction: column;
         text-align: center;
         justify-content: space-evenly;
-
         padding: 0;
     }
     .prices__row {
@@ -115,6 +111,17 @@
         max-height: fit-content;
         max-width: fit-content;
         border: none;
+    }
+    .prices__link {
+        display: block;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 131.4%;
+        /* identical to box height, or 21px */
+        text-align: center;
+        color: #333333;
+        text-decoration: underline;
     }
 }
 
