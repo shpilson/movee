@@ -152,7 +152,9 @@
         border-bottom: 1px solid #FED100;
     }
     .carpark__box {}
-    .carpark__item {}
+    .carpark__item {
+        flex-direction: column;
+    }
     .carpark__img {}
     .carpark__list {}
     .carpark__car-name {}
