@@ -266,9 +266,10 @@
     .contacts__box {
         display: flex;
         flex-wrap: wrap;
-        margin: 190px auto 0;
+        margin: 330px auto 0;
         width: 100%;
-        height: 320px;
+        height: 180px;
+        justify-content: center;
     }
     .logo {}
     .logo__link {}
@@ -276,16 +277,23 @@
         display: none;
     }
     .title {}
-    .contacts__map {
-
-    }
+    .contacts__map {}
     .contacts__list {}
     .contacts__list-item {
         background: none;
         padding: 0 0 20px 0;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 131.4%;
+        /* identical to box height, or 20px */
+        color: #333333;
     }
     .contacts__list-item--underline {}
-    .contacts__social {}
+    .contacts__social {
+        display: none;
+    }
     .social {}
     .social__link {
         display: none;
