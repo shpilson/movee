@@ -73,6 +73,7 @@
     .header__content-button {
         margin: 0 0 40px 0;
         font-size: 20px;
+        width: 314px;
     }
     /* Block "How" */
     .how__title {
