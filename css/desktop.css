@@ -23,7 +23,7 @@ a:visited {
 
 .header {
     background-color: #FFD101;
-    background-image: url("/img/background.svg");
+    background-image: url("https://shpilson.github.io/movee/img/background.svg");
 }
 
 .header__top {
@@ -109,7 +109,7 @@ a:visited {
 }
 
 .header__content {
-    background-image: url("/img/delivery.svg");
+    background-image: url("https://shpilson.github.io/movee/img/delivery.svg");
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -143,7 +143,7 @@ a:visited {
     font-size: 24px;
     line-height: 29px;
     color: #F2F2F2;
-    background-image: url("/img/red_button_v2.svg");
+    background-image: url("https://shpilson.github.io/movee/img/red_button_v2.svg");
     height: 70px;
     border: none;
     margin: 50px 0px 0px 0px;
@@ -348,7 +348,7 @@ a:visited {
 }
 
 .carpark__option {
-    background: url('/img/icon-check.svg') no-repeat center left;
+    background: url('https://shpilson.github.io/movee/img/icon-check.svg') no-repeat center left;
     padding: 4px 0 4px 25px;
     list-style: none;
 }
@@ -379,7 +379,7 @@ a:visited {
 
 
 .reviews__date {
-    background: url("/img/icon-stars.svg") no-repeat center center;
+    background: url("https://shpilson.github.io/movee/img/icon-stars.svg") no-repeat center center;
     padding: 4px 0px 4px 0px;
     margin: 0px 150px 0px 0px;
     list-style: none;
@@ -425,7 +425,7 @@ a:visited {
     font-weight: 500;
     font-size: 20px;
     color: #F2F2F2;
-    background: url("/img/callback_button.svg");
+    background: url("https://shpilson.github.io/movee/img/callback_button.svg");
     width: 260px;
     height: 60px;
     border: none;
@@ -470,7 +470,7 @@ a:visited {
 }
 
 .contacts__list-item {
-    background: url('/img/icon-check-yellow.svg') no-repeat center left;
+    background: url('https://shpilson.github.io/movee/img/icon-check-yellow.svg') no-repeat center left;
     padding: 4px 0 4px 25px;
     list-style: none;
     margin: 0px 0px 0px 35px;

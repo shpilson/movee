@@ -259,7 +259,7 @@
         width: 100%;
     }
     .callback__button {
-        background: url("/img/red_button_v2.svg");
+        background: url("https://shpilson.github.io/movee/img/red_button_v2.svg");
         margin: 60px 0 0 0;
     }
     /* Block: Contacts */
