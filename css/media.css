@@ -292,9 +292,11 @@
     .contacts__social {
         display: none;
     }
-    .social {}
+    .social {
+        justify-content: center;
+    }
     .social__link {
-        display: none;
+        padding: 0 15px 0 15px;
     }
     .social__image {}
     /* Footer / Подвал */
@@ -327,12 +329,22 @@
     .social {}
     .social__link {}
     .social__image {}
-    .footer__email {}
+    .footer__email {
+        margin: 20px 0px 47px 0px;
+    }
     .subtitle {}
     .footer__contacts {}
-    .footer__button {}
+    .footer__button {
+        width: 100%;
+        margin: 0 0 50px 0;
+    }
     .button {}
-    .footer__phone {}
+    .footer__phone {
+        display: none;
+    }
+    .copyright__author {
+        font-size: 12px;
+    }
 }
 
 @media (min-width: 767px) {
