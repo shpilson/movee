@@ -60,6 +60,16 @@
         font-size: 16px;
         line-height: 18px;
     }
+    .header__menu-list {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 25px 0px 0px;
+    }
+    .header__menu-list-item {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 50px 0px 0px;
+    }
     .header__content-button {
         margin: 0 0 40px 0;
         font-size: 20px;
