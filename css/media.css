@@ -282,12 +282,10 @@
     .contacts__list-item {
         background: none;
         padding: 0 0 20px 0;
-
         font-style: normal;
         font-weight: normal;
         font-size: 15px;
         line-height: 131.4%;
-        /* identical to box height, or 20px */
         color: #333333;
     }
     .contacts__list-item--underline {}
@@ -299,6 +297,42 @@
         display: none;
     }
     .social__image {}
+    /* Footer / Подвал */
+    .footer__content {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 60px 0 0 0;
+    }
+    .footer__policy {
+        max-width: 100%;
+        margin: 0 0 50px 0;
+    }
+    .footer__logo {}
+    .logo {}
+    .logo__link {
+        padding: 0 0 18px 0px;
+    }
+    .footer__title {}
+    .title {}
+    .footer__policy-inner {}
+    .footer__link {}
+    .footer__navigation {}
+    .footer__navigation-inner {}
+    .footer__menu {}
+    .footer__menu-list {}
+    .footer__menu-list-item {}
+    .footer__menu-link {}
+    .footer__social {}
+    .social {}
+    .social__link {}
+    .social__image {}
+    .footer__email {}
+    .subtitle {}
+    .footer__contacts {}
+    .footer__button {}
+    .button {}
+    .footer__phone {}
 }
 
 @media (min-width: 767px) {
