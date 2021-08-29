@@ -611,22 +611,30 @@ body {
     width: 491px;
     margin: 0 auto;
 }
+
 .modal__header {
     width: 100%;
     background: #FFD101;
 }
-.close {
-}
+
+.close {}
+
 .modal__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #333333;
 }
-.title {
-}
-.modal__body {
-}
-.modal__form-input {
-}
-.modal__button {
-}
+
+.title {}
+
+.modal__body {}
+
+.modal__form-input {}
+
+.modal__button {}
 
 #modal__window {
     display: none;
