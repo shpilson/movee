@@ -336,6 +336,10 @@ a:visited {
     cursor: pointer;
 }
 
+.carpark__button:hover {
+    border: 1px solid #FED100;
+}
+
 .carpark__button--active {
     border: 1px solid #FED100;
 }
