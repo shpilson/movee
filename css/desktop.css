@@ -706,6 +706,11 @@ body {
     color: #FFF;
 }
 
+.modal__link--black {
+    text-decoration: none;
+    color: #333;
+}
+
 #modal__callback {
     position: relative;
     background-color: #fefefe;
