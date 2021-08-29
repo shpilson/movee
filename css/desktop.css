@@ -563,6 +563,7 @@ a:visited {
 
 .footer__button {
     border: 1px solid #333333;
+    cursor: pointer;
 }
 
 .footer__phone {
