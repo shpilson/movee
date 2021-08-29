@@ -153,6 +153,10 @@ a:visited {
 
 .header__content-button:hover {
     background: #DB2F26;
+
+    -moz-box-shadow: 0 0 20px #f00;
+    -webkit-box-shadow: 0 0 20px #f00;
+    box-shadow: 0 0 20px #f00;
 }
 
 .header__content-advantages {
