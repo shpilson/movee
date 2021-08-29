@@ -641,7 +641,6 @@ body {
     margin: 0 auto;
 }
 
-
 .modal__body {
     display: flex;
     flex-direction: column;
@@ -668,6 +667,13 @@ body {
     height: 60px;
     border: none;
     cursor: pointer;
+}
+
+.modal__button:hover {
+        background: #FF4C43;
+        -moz-box-shadow: 0 0 20px #FF4C43;
+        -webkit-box-shadow: 0 0 20px #FF4C43;
+        box-shadow: 0 0 20px #FF4C43;
 }
 
 #modal__window {
