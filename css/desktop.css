@@ -697,7 +697,3 @@ body {
 #modal__window:target {
     display: block;
 }
-
-.close:hover {
-    background: #e6e6ff;
-}
