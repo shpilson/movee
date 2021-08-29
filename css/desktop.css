@@ -667,6 +667,7 @@ body {
     height: 60px;
     border: none;
     cursor: pointer;
+    margin: 50px auto;
 }
 
 .modal__button:hover {
