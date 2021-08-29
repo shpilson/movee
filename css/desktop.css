@@ -622,6 +622,7 @@ body {
 .modal__header {
     width: 100%;
     background: #FFD101;
+    border-radius: 10px 10px 0 0;
 }
 
 .close {
