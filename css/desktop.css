@@ -551,6 +551,7 @@ body {
 .footer__link {
     text-decoration: none;
     padding: 0px 0px 36px 0px;
+    color: #333;
 }
 
 .footer__menu-list-item {
