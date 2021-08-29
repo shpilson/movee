@@ -609,6 +609,7 @@ body {
 
 .modal__container {
     width: 400px;
+    margin: 0 auto;
 }
 .modal__header {
 }
