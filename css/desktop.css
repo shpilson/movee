@@ -153,7 +153,6 @@ a:visited {
 
 .header__content-button:hover {
     background: #DB2F26;
-
     -moz-box-shadow: 0 0 20px #DB2F26;
     -webkit-box-shadow: 0 0 20px #DB2F26;
     box-shadow: 0 0 20px #DB2F26;
@@ -390,7 +389,6 @@ a:visited {
     flex-direction: column;
 }
 
-
 .reviews__date {
     background: url("https://shpilson.github.io/movee/img/icon-stars.svg") no-repeat center center;
     padding: 4px 0px 4px 0px;
@@ -401,7 +399,6 @@ a:visited {
 .reviews__text {
     margin: 20px 20px 20px 0px;
 }
-
 
 .reviews__button {
     text-align: center;
@@ -444,6 +441,13 @@ a:visited {
     height: 60px;
     border: none;
     cursor: pointer;
+}
+
+.callback__button:hover {
+    background: #DB2F26;
+    -moz-box-shadow: 0 0 20px #DB2F26;
+    -webkit-box-shadow: 0 0 20px #DB2F26;
+    box-shadow: 0 0 20px #DB2F26;
 }
 
 .contacts {
@@ -509,7 +513,6 @@ a:visited {
     padding: 0px 25px 0px 0px;
 }
 
-
 .footer {
     background-color: #FFD101;
 }
@@ -524,7 +527,6 @@ a:visited {
 .footer__logo {
     margin: 0px 0px 44px 0px;
 }
-
 
 .footer__policy {
     max-width: 250px;
@@ -541,7 +543,6 @@ a:visited {
     padding: 0px 0px 36px 0px;
 }
 
-
 .footer__menu-list-item {
     padding: 0px 0px 15px 0px;
 }
@@ -554,7 +555,6 @@ a:visited {
     color: #333333;
     text-decoration: none;
 }
-
 
 .footer__email {
     margin: 20px 0px 0px 0px;
