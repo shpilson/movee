@@ -601,6 +601,10 @@ body {
     padding: 10px 0px;
 }
 
+.copyright__link {
+    color: #333;
+}
+
 /* Modal Window */
 
 #modal__window {
