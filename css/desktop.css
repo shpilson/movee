@@ -607,6 +607,24 @@ body {
 
 /* Modal Window */
 
+.modal__container {
+    width: 400px;
+}
+.modal__header {
+}
+.close {
+}
+.modal__title {
+}
+.title {
+}
+.modal__body {
+}
+.modal__form-input {
+}
+.modal__button {
+}
+
 #modal__window {
     background: #464646;
     width: 491px;
