@@ -3,8 +3,8 @@ const pages = {
 }
 
 // Всплывающие окна
-import myModal from './scripts/popup/popup.js'; // Модальное окно (на главной)
-import repeatMainModal from './scripts/popup/popupActivate.js'; //  Активирация окна на главной странице
+import myModal from './popup/popup.js'; // Модальное окно (на главной)
+import repeatMainModal from './popup/popupActivate.js'; //  Активирация окна на главной странице
 
 if (pages.all) {
     myModal();
