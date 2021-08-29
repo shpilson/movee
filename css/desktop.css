@@ -644,6 +644,7 @@ body {
 .modal__body {
     display: flex;
     flex-direction: column;
+    margin: 70px 0 0 0;
 }
 
 .modal__form-input {
