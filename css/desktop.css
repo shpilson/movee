@@ -644,7 +644,16 @@ body {
 
 .modal__body {}
 
-.modal__form-input {}
+.modal__form-input {
+    color: rgba(51, 51, 51, 0.7);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    border: none;
+    border-bottom: 1px solid #333333;
+    margin: 0px 70px 0px 0px;
+}
 
 .modal__button {}
 
