@@ -152,10 +152,10 @@ a:visited {
 }
 
 .header__content-button:hover {
-    background: #DB2F26;
-    -moz-box-shadow: 0 0 20px #DB2F26;
-    -webkit-box-shadow: 0 0 20px #DB2F26;
-    box-shadow: 0 0 20px #DB2F26;
+    background: #FF4C43;
+    -moz-box-shadow: 0 0 20px #FF4C43;
+    -webkit-box-shadow: 0 0 20px #FF4C43;
+    box-shadow: 0 0 20px #FF4C43;
 }
 
 .header__content-advantages {
@@ -451,10 +451,10 @@ a:visited {
 }
 
 .callback__button:hover {
-    background: #DB2F26;
-    -moz-box-shadow: 0 0 20px #DB2F26;
-    -webkit-box-shadow: 0 0 20px #DB2F26;
-    box-shadow: 0 0 20px #DB2F26;
+    background: #FF4C43;
+    -moz-box-shadow: 0 0 20px #FF4C43;
+    -webkit-box-shadow: 0 0 20px #FF4C43;
+    box-shadow: 0 0 20px #FF4C43;
 }
 
 .contacts {
