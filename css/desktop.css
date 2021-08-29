@@ -608,7 +608,7 @@ body {
 /* Modal Window */
 
 .modal__container {
-    height: 400px;
+    width: 491px;
     margin: 0 auto;
 }
 .modal__header {
