@@ -607,10 +607,16 @@ body {
 
 /* Modal Window */
 
-.modal__container {
+.modal__box {
     width: 491px;
+    background: #FFF;
+}
+
+.modal__container {
+    width: 400px;
     margin: 0 auto;
 }
+
 
 .modal__header {
     width: 100%;
