@@ -3,3 +3,7 @@
 @import url("https://shpilson.github.io/movee/css/desktop.css");
 @import url("https://shpilson.github.io/movee/css/burger.css");
 @import url("https://shpilson.github.io/movee/css/media.css");
+
+
+/* Всплывающее окно */
+@import url("https://shpilson.github.io/movee/scripts/popup.css");
