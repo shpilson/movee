@@ -616,6 +616,7 @@ body {
 .modal__container {
     width: 400px;
     margin: 0 auto;
+    border-radius: 10px;
 }
 
 .modal__header {
