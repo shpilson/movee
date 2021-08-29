@@ -8,5 +8,5 @@ const pages = {
 
 if (pages.all) {
     myModal();
-    repeatMainModal()
+    repeatMainModal();
 }
