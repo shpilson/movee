@@ -635,12 +635,7 @@ body {
 }
 
 .modal__title {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 37px;
     text-align: center;
-    color: #333333;
 }
 
 .title {}
