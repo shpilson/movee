@@ -244,6 +244,11 @@ a:visited {
 .prices__column {
     flex: 0 1 33.333%;
     display: flex;
+    cursor: pointer;
+}
+
+.prices__column-price {
+    cursor: pointer;
 }
 
 .prices__item {
