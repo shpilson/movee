@@ -584,8 +584,6 @@ body {
 .footer__button {
     border: 1px solid #333333;
     cursor: pointer;
-    color: #333;
-    text-decoration: none;
 }
 
 .footer__phone {
