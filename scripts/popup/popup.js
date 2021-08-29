@@ -13,7 +13,6 @@ function myModal() {
     <h6>Этот шаблон создан с целью демонстрации возможностей платформы.</h6>
   </div>
   <div class="modal-footer">
-    <a href="#"><img src="#"></a>
   </div>
 </div>
 
