@@ -154,9 +154,9 @@ a:visited {
 .header__content-button:hover {
     background: #DB2F26;
 
-    -moz-box-shadow: 0 0 20px #f00;
-    -webkit-box-shadow: 0 0 20px #f00;
-    box-shadow: 0 0 20px #f00;
+    -moz-box-shadow: 0 0 20px #DB2F26;
+    -webkit-box-shadow: 0 0 20px #DB2F26;
+    box-shadow: 0 0 20px #DB2F26;
 }
 
 .header__content-advantages {
@@ -439,7 +439,7 @@ a:visited {
     font-weight: 500;
     font-size: 20px;
     color: #F2F2F2;
-    background: url("https://shpilson.github.io/movee/img/callback_button.svg");
+    background: url("https://shpilson.github.io/movee/img/red_button_v2.svg");
     width: 260px;
     height: 60px;
     border: none;
