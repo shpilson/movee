@@ -4,7 +4,6 @@ body {
     font-family: "Montserrat";
 }
 
-
 /* Styles */
 
 .wrapper {
@@ -87,6 +86,7 @@ body {
 
 .header__menu-link {
     text-decoration: none;
+    color: #333;
 }
 
 .header__phone {
