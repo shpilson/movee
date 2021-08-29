@@ -612,7 +612,7 @@ body {
     margin: 0 auto;
 }
 .modal__header {
-    width: 491px;
+    width: 100%;
     background: #FFD101;
 }
 .close {
