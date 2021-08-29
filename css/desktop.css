@@ -151,6 +151,10 @@ a:visited {
     cursor: pointer;
 }
 
+.header__content-button {
+    background: black;
+}
+
 .header__content-advantages {
     display: flex;
     justify-content: center;
