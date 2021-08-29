@@ -399,6 +399,7 @@ a:visited {
     text-align: center;
     border: 1px solid #333333;
     margin: 60px auto 90px;
+    cursor: pointer;
 }
 
 .callback__box {
