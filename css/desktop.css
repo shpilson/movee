@@ -435,6 +435,7 @@ a:visited {
     width: 260px;
     height: 60px;
     border: none;
+    cursor: pointer;
 }
 
 .contacts {
