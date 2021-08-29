@@ -625,7 +625,7 @@ body {
 
 .close {
     display: block;
-    padding: 0 18px;
+    padding: 18px 18px 0 0;
     margin: 18px;
     text-decoration: none;
     font-size: 15px;
