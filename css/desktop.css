@@ -612,6 +612,7 @@ body {
     margin: 0 auto;
 }
 .modal__header {
+    background: #FFD101;
 }
 .close {
 }
