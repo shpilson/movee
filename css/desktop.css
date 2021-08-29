@@ -610,6 +610,7 @@ body {
 .modal__box {
     width: 491px;
     background: #FFF;
+    margin: 0 auto;
 }
 
 .modal__container {
@@ -617,13 +618,20 @@ body {
     margin: 0 auto;
 }
 
-
 .modal__header {
     width: 100%;
     background: #FFD101;
 }
 
-.close {}
+.close {
+    display: block;
+    padding: 0 12px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 14pt;
+    cursor: pointer;
+    text-align: right;
+}
 
 .modal__title {
     font-style: normal;
@@ -688,18 +696,6 @@ body {
 
 #modal__window:target {
     display: block;
-}
-
-.close {
-    display: inline-block;
-    border: 1px solid #0000cc;
-    color: #0000cc;
-    padding: 0 12px;
-    margin: 10px;
-    text-decoration: none;
-    background: #f2f2f2;
-    font-size: 14pt;
-    cursor: pointer;
 }
 
 .close:hover {
