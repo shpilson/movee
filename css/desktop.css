@@ -618,6 +618,7 @@ a:visited {
     top: 0;
     left: 0;
     display: none;
+    text-decoration: none;
 }
 
 #modal__callback {
