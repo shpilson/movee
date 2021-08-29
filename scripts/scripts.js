@@ -7,6 +7,6 @@ const pages = {
 }
 
 if (pages.all) {
-    myModal();
-    repeatMainModal();
+//    myModal();
+//    repeatMainModal();
 }
