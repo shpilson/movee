@@ -625,8 +625,8 @@ body {
 
 .close {
     display: block;
-    padding: 0 12px;
-    margin: 10px;
+    padding: 0 18px;
+    margin: 18px;
     text-decoration: none;
     font-size: 14pt;
     cursor: pointer;
