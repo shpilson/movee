@@ -300,6 +300,13 @@ a:visited {
     cursor: pointer;
 }
 
+.prices__button:hover {
+    background: #DB2F26;
+    -moz-box-shadow: 0 0 20px #DB2F26;
+    -webkit-box-shadow: 0 0 20px #DB2F26;
+    box-shadow: 0 0 20px #DB2F26;
+}
+
 .prices__link {
     display: none;
 }
