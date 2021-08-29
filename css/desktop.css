@@ -300,6 +300,8 @@ body {
 
 .prices__link {
     display: none;
+    text-decoration: none;
+    color: #333;
 }
 
 .carpark__title {
