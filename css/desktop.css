@@ -637,6 +637,8 @@ body {
 
 .modal__title {
     text-align: center;
+    width: 282px;
+    margin: 0 auto;
 }
 
 
