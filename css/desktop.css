@@ -608,10 +608,11 @@ body {
 /* Modal Window */
 
 .modal__container {
-    width: 400px;
+    height: 400px;
     margin: 0 auto;
 }
 .modal__header {
+    width: 491px;
     background: #FFD101;
 }
 .close {
