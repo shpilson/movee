@@ -151,7 +151,7 @@ a:visited {
     cursor: pointer;
 }
 
-.header__content-button {
+.header__content-button:hover {
     background: black;
 }
 
