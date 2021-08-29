@@ -618,6 +618,9 @@ a:visited {
     top: 0;
     left: 0;
     display: none;
+}
+
+.modal__link {
     text-decoration: none;
 }
 
