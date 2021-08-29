@@ -4,10 +4,6 @@ body {
     font-family: "Montserrat";
 }
 
-a {
-    color: #333333;
-}
-
 a:visited {
     color: #333333;
 }
@@ -621,10 +617,6 @@ a:visited {
 
 .modal__link {
     text-decoration: none;
-    color: #FFF;
-}
-
-.modal__link a {
     color: #FFF;
 }
 
