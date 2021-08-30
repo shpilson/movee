@@ -1,9 +1,3 @@
-@media (max-width: 970px) {
-    .container {
-        max-width: 970px;
-    }
-}
-
 @media (max-width: 1024px) {
     .container {
         max-width: 768px;
@@ -328,6 +322,12 @@
     }
     .header__mobile-photo {
         display: none;
+    }
+}
+
+@media (max-width: 970px) {
+    .container {
+        max-width: 970px;
     }
 }
 
