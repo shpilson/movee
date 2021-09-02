@@ -244,6 +244,11 @@ body {
     display: flex;
 }
 
+.prices__form {
+    display: flex;
+    justify-content: center;
+}
+
 .prices__item {
     min-width: 420px;
     min-height: 579px;
