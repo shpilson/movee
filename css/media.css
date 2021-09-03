@@ -334,10 +334,10 @@
 
 @media (min-width: 1281px) {
     .menu__btn {
-        visibility: hidden;
+        display: none;
     }
     .header__menu-list {
-        visibility: visible;
+        display: none;
     }
     .header__mobile-photo {
         display: none;
