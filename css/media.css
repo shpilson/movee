@@ -280,6 +280,11 @@
     .contacts__title {
         display: none;
     }
+
+    .ymap-container {
+        background: url('https://shpilson.github.io/movee/img/test.webp') #ffffff no-repeat;
+    }
+
     .contacts__list-item {
         background: none;
         padding: 0 0 20px 0;
