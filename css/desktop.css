@@ -106,6 +106,12 @@ body {
     background-position: right;
 }
 
+.header__mobile-photo {
+    background-image: url("https://shpilson.github.io/movee/img/family-header-mob.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .header__content-inner {
     display: flex;
     flex-direction: column;
