@@ -43,7 +43,6 @@
         display: flex;
         justify-content: center;
         margin: 20px 0px 0px 0px;
-        object-fit: contain;
     }
     .header__content-title {
         font-style: normal;
