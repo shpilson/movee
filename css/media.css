@@ -1,3 +1,5 @@
+@import url("https://shpilson.github.io/movee/css/burger.css");
+
 @media (max-width: 320px) {
     .container {
         max-width: none;
@@ -333,7 +335,6 @@
     .menu__btn {
         display: none;
     }
-    
     .header__mobile-photo {
         display: none;
     }
