@@ -409,7 +409,7 @@ body {
 }
 
 .reviews__date {
-    background: url("https://shpilson.github.io/movee/img/icon-stars.webp") no-repeat center center;
+    background: url("https://shpilson.github.io/movee/img/icon-stars.svg") no-repeat center center;
     padding: 4px 0px 4px 0px;
     margin: 0px 150px 0px 0px;
     list-style: none;
