@@ -369,7 +369,7 @@ body {
 }
 
 .carpark__option {
-    background: url('https://shpilson.github.io/movee/img/icon-check.svg') no-repeat center left;
+    background: url('https://shpilson.github.io/movee/img/icon-check.webp') no-repeat center left;
     padding: 4px 0 4px 25px;
     list-style: none;
 }
@@ -407,7 +407,7 @@ body {
 }
 
 .reviews__date {
-    background: url("https://shpilson.github.io/movee/img/icon-stars.svg") no-repeat center center;
+    background: url("https://shpilson.github.io/movee/img/icon-stars.webp") no-repeat center center;
     padding: 4px 0px 4px 0px;
     margin: 0px 150px 0px 0px;
     list-style: none;
@@ -506,7 +506,7 @@ body {
 }
 
 .contacts__list-item {
-    background: url('https://shpilson.github.io/movee/img/icon-check-yellow.svg') no-repeat center left;
+    background: url('https://shpilson.github.io/movee/img/icon-check-yellow.webp') no-repeat center left;
     padding: 4px 0 4px 25px;
     list-style: none;
     margin: 0px 0px 0px 35px;
