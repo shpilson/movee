@@ -23,6 +23,11 @@
     .header__phone {
         display: none;
     }
+
+    .header__menu-list {
+        visibility: visible;
+    }
+
     .title {
         font-style: normal;
         font-weight: 600;
