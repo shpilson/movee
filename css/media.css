@@ -45,6 +45,9 @@
         justify-content: center;
         margin: 20px 0px 0px 0px;
     }
+    .header__mobile-img {
+        background: url("https://shpilson.github.io/movee/img/loading.gif") center / 50px no-repeat;
+    }
     .header__content-title {
         font-style: normal;
         font-weight: bold;
