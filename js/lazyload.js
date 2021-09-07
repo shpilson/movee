@@ -10,4 +10,8 @@ if (lazyImages.length > 0) {
     });
 }
 
-console.log(lazyImagesPositions);
+function lazyScrollCheck() {
+    let imgIndex = lazyImagesPositions.findIndex(
+        item => pageYOffset > item - windowHeight
+    );
+}
