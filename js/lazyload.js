@@ -4,7 +4,7 @@ const windowHeight = document.documentElement.clientHeight;
 let lazyImagesPositions = [];
 if (lazyImages.length > 0) {
     lazyImages.forEach(img => {
-        if(img.dataset.src || img.dataset.srcset) {
+        if (img.dataset.src || img.dataset.srcset) {
             lazyImagesPositions.push(img.getBoundingClientRect().top + pageYOffset);
         }
     });
@@ -19,5 +19,6 @@ function lazyScrollCheck() {
             lazyImages[imgIndex].src = lazyImages[imgIndex].dataset.src;
             lazyImages[imgIndex].removeAttribute('data-src');
         }
+        delete lazyImagesPositions[imgIndex];
     }
 }
