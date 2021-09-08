@@ -11,6 +11,14 @@ if (lazyImages.length > 0) {
     });
 }
 
+window.addEventListener("scroll", lazyScroll);
+
+function lazyScroll() {
+    if (document.querySelectorAll("img[data-src]").length > 0) {
+        lazyScrollCheck();
+    }
+}
+
 function lazyScrollCheck() {
     let imgIndex = lazyImagesPositions.findIndex(
         item => pageYOffset > item - windowHeight
