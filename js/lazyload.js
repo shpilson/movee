@@ -6,6 +6,7 @@ if (lazyImages.length > 0) {
     lazyImages.forEach(img => {
         if (img.dataset.src || img.dataset.srcset) {
             lazyImagesPositions.push(img.getBoundingClientRect().top + pageYOffset);
+            lazyScrollCheck();
         }
     });
 }
