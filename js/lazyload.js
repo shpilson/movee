@@ -14,4 +14,10 @@ function lazyScrollCheck() {
     let imgIndex = lazyImagesPositions.findIndex(
         item => pageYOffset > item - windowHeight
     );
+    if (imgIndex >= 0) {
+        if (lazyImages[imgIndex].dataset.src) {
+            lazyImages[imgIndex].src = lazyImages[imgIndex].dataset.src;
+            lazyImages[imgIndex].removeAttribute('data-src');
+        }
+    }
 }
