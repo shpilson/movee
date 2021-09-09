@@ -493,6 +493,10 @@ body {
     z-index: 1;
 }
 
+.ymap-container {
+    height: 620px;
+}
+
 .contacts__box {
     display: flex;
     flex-direction: column;
