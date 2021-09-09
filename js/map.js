@@ -13,7 +13,7 @@ function init() {
         controls: ['zoomControl', 'fullscreenControl'] // выбираем только те функции, которые необходимы при использовании
     });
     var myPlacemarkTemp = new ymaps.Placemark([55.730138, 37.594238], {
-        balloonContent: "Здесь может быть ваш адрес",
+        balloonContent: "Москва, Волгоградский проспект 8",
     }, {
         // Опции.
         // Необходимо указать данный тип макета.
