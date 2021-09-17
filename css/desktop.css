@@ -13,7 +13,7 @@
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: local("Montserrat"), url('https://shpilson.github.io/movee/fonts/montserrat-v14-latin_cyrillic-500') format('woff2');
+    src: local("Montserrat"), url('https://shpilson.github.io/movee/fonts/montserrat-v14-latin_cyrillic-500.woff2') format('woff2');
 }
 
 @font-face {
@@ -21,7 +21,7 @@
     font-style: normal;
     font-weight: 600;
     font-display: swap;
-    src: local("Montserrat"), url('https://shpilson.github.io/movee/fonts/montserrat-v14-latin_cyrillic-600') format('woff2');
+    src: local("Montserrat"), url('https://shpilson.github.io/movee/fonts/montserrat-v14-latin_cyrillic-600.woff2') format('woff2');
 }
 
 body {
