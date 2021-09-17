@@ -371,14 +371,14 @@ body {
     border: 1px solid #FED100;
 }
 
-.hidden {
-    display: none;
-}
-
 .carpark__item {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
+}
+
+.hidden {
+    display: none;
 }
 
 .carpark__car-name {
