@@ -28,10 +28,6 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-.hidden {
-    display: none;
-}
-
 /* Styles */
 
 .wrapper {
@@ -373,6 +369,10 @@ body {
 
 .carpark__button--active {
     border: 1px solid #FED100;
+}
+
+.hidden {
+    display: none;
 }
 
 .carpark__item {
