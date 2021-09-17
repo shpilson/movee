@@ -209,16 +209,51 @@
                 <h2 class="carpark__title title">Автопарк</h2>
                 <div class="carpark__subtitle subtitle">10 видов автомобилей от 800 кг до 10 тонн</div>
                 <div class="carpark__buttons">
-                    <button class="carpark__button carpark__button--active">Газели</button>
-                    <button class="carpark__button">Каблуки</button>
-                    <button class="carpark__button">Грузовики</button>
+                    <button class="carpark__button carpark__button--active source-1">Газели</button>
+                    <button class="carpark__button source-2">Каблуки</button>
+                    <button class="carpark__button source-3">Грузовики</button>
                 </div>
                 <div class="carpark__box">
-                    <div class="carpark__item">
+
+                    <div class="carpark__item target-1">
                         <img class="carpark__img" data-src="https://shpilson.github.io/movee/img/gazelle-min.webp"
                             src="https://shpilson.github.io/movee/img/1x1.png" alt="gazelle">
                         <div class="carpark__list">
                             <div class="carpark__car-name subtitle">Газель 3 метра</div>
+                            <ul class="carpark__description">
+                                <li class="carpark__option">Ширина 2 м</li>
+                                <li class="carpark__option">Высота 2 м</li>
+                                <li class="carpark__option">Объем 16 м³</li>
+                                <li class="carpark__option">Грузоподъемность 1,5 т</li>
+                            </ul>
+                            <form action="#modal__window">
+                                <button class="carpark__order button modal__link--black">Заказать</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="carpark__item target-2">
+                        <img class="carpark__img" data-src="https://shpilson.github.io/movee/img/gazelle-min.webp"
+                            src="https://shpilson.github.io/movee/img/1x1.png" alt="gazelle">
+                        <div class="carpark__list">
+                            <div class="carpark__car-name subtitle">Газель 4 метра</div>
+                            <ul class="carpark__description">
+                                <li class="carpark__option">Ширина 2 м</li>
+                                <li class="carpark__option">Высота 2 м</li>
+                                <li class="carpark__option">Объем 16 м³</li>
+                                <li class="carpark__option">Грузоподъемность 1,5 т</li>
+                            </ul>
+                            <form action="#modal__window">
+                                <button class="carpark__order button modal__link--black">Заказать</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="carpark__item target-3">
+                        <img class="carpark__img" data-src="https://shpilson.github.io/movee/img/gazelle-min.webp"
+                            src="https://shpilson.github.io/movee/img/1x1.png" alt="gazelle">
+                        <div class="carpark__list">
+                            <div class="carpark__car-name subtitle">Газель 5 метров</div>
                             <ul class="carpark__description">
                                 <li class="carpark__option">Ширина 2 м</li>
                                 <li class="carpark__option">Высота 2 м</li>
@@ -466,6 +501,7 @@
     <script src="https://shpilson.github.io/movee/js/lazyload.js" defer></script>
     <script src="https://shpilson.github.io/movee/js/jquery.min.js" defer></script>
     <script src="https://shpilson.github.io/movee/js/map.js" defer></script>
+    <script src="https://shpilson.github.io/movee/js/carselect.js" defer></script>
 </body>
 
 </html>
