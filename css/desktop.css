@@ -8,6 +8,14 @@
     src: local("Montserrat"), url('https://shpilson.github.io/movee/fonts/montserrat-v14-latin_cyrillic-regular.woff2') format('woff2');
 }
 
+@font-face {
+    font-family: "Montserrat";
+    font-style: bold;
+    font-weight: normal;
+    font-display: swap;
+    src: local("Montserrat"), url('https://shpilson.github.io/movee/fonts/montserrat-v14-latin_cyrillic-600') format('woff2');
+}
+
 body {
     font-family: "Montserrat", sans-serif;
 }
