@@ -111,7 +111,7 @@ body {
 .header__content {
     background-image: url("https://shpilson.github.io/movee/img/couriers-couple.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right bottom;
 }
 
 .header__content-inner {
