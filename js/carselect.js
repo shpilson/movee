@@ -49,5 +49,3 @@ function showTarget(targets, targetId) {
 		}
 	})
 }
-
-main()
