@@ -55,6 +55,10 @@ body {
     justify-content: space-between;
 }
 
+.logo {
+    text-transform: uppercase;
+}
+
 .logo__link {
     text-decoration: none;
 }
